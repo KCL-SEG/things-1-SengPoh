@@ -4,7 +4,7 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 
 class Thing(models.Model):
     name = models.CharField(
-        max_length=50,
+        max_length=30,
         unique=True,
         blank=False
         )
